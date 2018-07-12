@@ -160,3 +160,18 @@ $(document).ready(function() {
     }
 
 });
+
+$("a[href='#inicio']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
+
+$("a[href='#palestrantes']").click(function() {
+  $("html, body").animate({ scrollTop: 2400 }, "slow");
+  return false;
+});
+
+$("a[href='#inscricao']").click(function() {
+  $("html, body").animate({ scrollTop: 3550 }, "slow");
+  return false;
+});
