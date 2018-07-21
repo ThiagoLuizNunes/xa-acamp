@@ -1,42 +1,63 @@
 
-.myCountdown div {
+.ground {
+  padding-top: 6%;
+  min-height: 120px;
+  /*background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
+  background-color: #0fb8ad;
 }
 
+.myCountdown {
+  min-height: 120px;
+}
 .myCountdown h4 {
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center;
-  margin-bottom: 0px;
-  height: 60px;
-  width: 150px;
+  text-align: center;
   font-size: 2.3em;
   color: #fff;
-  background-color: #00BFA5;
 }
 
 .myCountdown h5 {
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center;
-  margin-bottom: 0px;
-  height: 60px;
-  width: 150px;
   font-size: 1.8em;
   color: #fff;
-  background-color: #00BFA5;
 }
 .table-section {
   margin-bottom: 5%;
 }
-.table-days {
 
-}
 .table-days th {
   text-align: center;
   font-weight: 300;
   font-size: 15px;
 }
 .table-days h5 {
+  font-weight: 300;
+  font-size: 13px;
+  color: #757575;
+}
+.table-days th:hover {
+  /*background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
+  background-color: #0fb8ad;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.table-days th:hover > h5 {
+  color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.table-info th {
+  background-color: #fff;
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+}
+.table-info h5 {
   font-weight: 300;
   font-size: 13px;
   color: #757575;
