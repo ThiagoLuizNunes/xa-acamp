@@ -174,13 +174,17 @@ $("a[href='#palestrantes']").click(function() {
   $("html, body").animate({ scrollTop: 2300 }, "slow");
   return false;
 });
+$("a[href='#programacao']").click(function() {
+  $("html, body").animate({ scrollTop: 3850 }, "slow");
+  return false;
+});
 
 $("a[href='#inscricao']").click(function() {
-  $("html, body").animate({ scrollTop: 3550 }, "slow");
+  $("html, body").animate({ scrollTop: 4500 }, "slow");
   return false;
 });
 $("a[href='#contato']").click(function() {
-  $("html, body").animate({ scrollTop: 3900}, "slow");
+  $("html, body").animate({ scrollTop: 5000}, "slow");
   return false;
 });
 
