@@ -41,7 +41,8 @@
 }
 .table-days th:hover {
   /*background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
-  background-color: #0fb8ad;
+  background-color: #1565C0;
+  /*background-color: #0fb8ad;*/
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
