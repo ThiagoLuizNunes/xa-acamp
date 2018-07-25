@@ -161,32 +161,56 @@ $(document).ready(function() {
 
 });
 
-$("a[href='#inicio']").click(function() {
+function inicio() {
   $("html, body").animate({ scrollTop: 0 }, "slow");
-  return false;
-});
-$("a[href='#sobre']").click(function() {
+}
+
+function sobre() {
   $("html, body").animate({ scrollTop: 1500 }, "slow");
-  return false;
-});
+}
 
-$("a[href='#palestrantes']").click(function() {
+function palestrantes() {
   $("html, body").animate({ scrollTop: 2300 }, "slow");
-  return false;
-});
-$("a[href='#programacao']").click(function() {
-  $("html, body").animate({ scrollTop: 3850 }, "slow");
-  return false;
-});
+}
 
-$("a[href='#inscricao']").click(function() {
+function programacao() {
+  $("html, body").animate({ scrollTop: 3850 }, "slow");
+}
+
+function inscricao() {
   $("html, body").animate({ scrollTop: 4500 }, "slow");
-  return false;
-});
-$("a[href='#contato']").click(function() {
-  $("html, body").animate({ scrollTop: 5000}, "slow");
-  return false;
-});
+}
+
+function contato() {
+  $("html, body").animate({ scrollTop: 5000 }, "slow");
+}
+
+
+
+// $("a[href='#sobre']").click(function() {
+//   $("html, body").animate({ scrollTop: 1500 }, "slow");
+//   return false;
+// });
+
+// $("a[href='#palestrantes']").click(function() {
+//   $("html, body").animate({ scrollTop: 2300 }, "slow");
+//   return false;
+// });
+
+// $("a[href='#programacao']").click(function() {
+//   $("html, body").animate({ scrollTop: 3850 }, "slow");
+//   return false;
+// });
+
+// $("a[href='#inscricao']").click(function() {
+//   $("html, body").animate({ scrollTop: 4500 }, "slow");
+//   return false;
+// });
+
+// $("a[href='#contato']").click(function() {
+//   $("html, body").animate({ scrollTop: 5000}, "slow");
+//   return false;
+// });
 
 // Set the date we're counting down to
 var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
