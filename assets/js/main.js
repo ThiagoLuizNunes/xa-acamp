@@ -185,35 +185,8 @@ function contato() {
   $("html, body").animate({ scrollTop: 5000 }, "slow");
 }
 
-
-
-// $("a[href='#sobre']").click(function() {
-//   $("html, body").animate({ scrollTop: 1500 }, "slow");
-//   return false;
-// });
-
-// $("a[href='#palestrantes']").click(function() {
-//   $("html, body").animate({ scrollTop: 2300 }, "slow");
-//   return false;
-// });
-
-// $("a[href='#programacao']").click(function() {
-//   $("html, body").animate({ scrollTop: 3850 }, "slow");
-//   return false;
-// });
-
-// $("a[href='#inscricao']").click(function() {
-//   $("html, body").animate({ scrollTop: 4500 }, "slow");
-//   return false;
-// });
-
-// $("a[href='#contato']").click(function() {
-//   $("html, body").animate({ scrollTop: 5000}, "slow");
-//   return false;
-// });
-
 // Set the date we're counting down to
-var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+var countDownDate = new Date("Sep 27, 2018 22:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -243,3 +216,29 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+// $("a[href='#sobre']").click(function() {
+//   $("html, body").animate({ scrollTop: 1500 }, "slow");
+//   return false;
+// });
+
+// $("a[href='#palestrantes']").click(function() {
+//   $("html, body").animate({ scrollTop: 2300 }, "slow");
+//   return false;
+// });
+
+// $("a[href='#programacao']").click(function() {
+//   $("html, body").animate({ scrollTop: 3850 }, "slow");
+//   return false;
+// });
+
+// $("a[href='#inscricao']").click(function() {
+//   $("html, body").animate({ scrollTop: 4500 }, "slow");
+//   return false;
+// });
+
+// $("a[href='#contato']").click(function() {
+//   $("html, body").animate({ scrollTop: 5000}, "slow");
+//   return false;
+// });
