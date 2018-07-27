@@ -168,21 +168,28 @@ function inicio() {
 function sobre() {
   $("html, body").animate({ scrollTop: 1500 }, "slow");
 }
+function faq() {
+  $("html, body").animate({ scrollTop: 2350 }, "slow");
+}
 
 function palestrantes() {
-  $("html, body").animate({ scrollTop: 2300 }, "slow");
+  $("html, body").animate({ scrollTop: 2800 }, "slow");
 }
 
 function programacao() {
-  $("html, body").animate({ scrollTop: 3850 }, "slow");
+  $("html, body").animate({ scrollTop: 4400 }, "slow");
+}
+
+function galeria() {
+  $("html, body").animate({ scrollTop: 5000 }, "slow");
 }
 
 function inscricao() {
-  $("html, body").animate({ scrollTop: 4500 }, "slow");
+  $("html, body").animate({ scrollTop: 6000 }, "slow");
 }
 
 function contato() {
-  $("html, body").animate({ scrollTop: 5000 }, "slow");
+  $("html, body").animate({ scrollTop: 6800 }, "slow");
 }
 
 // Set the date we're counting down to

@@ -26,6 +26,9 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/my-custom.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/gallery-grid.css">
 </head>
 <body>
 <div class="loader">
@@ -51,10 +54,16 @@
                     <a class="nav-link active" onclick="return sobre();">Sobre</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link active" onclick="return faq();">FAQ</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link active" onclick="return palestrantes();">Palestrantes</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" onclick="return programacao();">Programação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" onclick="return galeria();">Galeria</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" onclick="return inscricao();">Inscrição</a>
@@ -700,8 +709,68 @@
       </tbody>
     </table>
 </section>
+<section>
+    <div class="container gallery-container">
+        <div class="container">
+            <div class="section_title mb50">
+                <h3 class="title">
+                   Galeria
+                </h3>
+            </div>
+        </div>
+        <div class="tz-gallery">
 
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="assets/img/gallery/img01.jpeg">
+                        <img src="assets/img/gallery/img01.jpeg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="assets/img/gallery/img02.jpeg">
+                        <img src="assets/img/gallery/img02.jpeg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="assets/img/gallery/img03.jpeg">
+                        <img src="assets/img/gallery/img03.jpeg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="assets/img/gallery/img04.jpeg">
+                        <img src="assets/img/gallery/img04.jpeg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="assets/img/gallery/img05.jpeg">
+                        <img src="assets/img/gallery/img05.jpeg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="assets/img/gallery/img06.jpeg">
+                        <img src="assets/img/gallery/img06.jpeg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="assets/img/gallery/img07.jpeg">
+                        <img src="assets/img/gallery/img07.jpeg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="assets/img/gallery/img08.jpeg">
+                        <img src="assets/img/gallery/img08.jpeg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="assets/img/gallery/img09.jpeg">
+                        <img src="assets/img/gallery/img09.jpeg" alt="Park">
+                    </a>
+                </div>
+            </div>
 
+        </div>
+    </div>
+</section>
 
 <!--get tickets section -->
 <section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
@@ -900,5 +969,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="assets/js/wow.min.js"></script>
 <!-- Custom js -->
 <script src="assets/js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
 </body>
 </html>
